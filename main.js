@@ -201,9 +201,9 @@ function update() {
     }
 
     //Удар волка
-    if((persX + pers.width >= wolf.x || persX <= wolf.x + wolf.width) && downPress == false){
-        pers.hp -= 30;
-    }
+//     if((persX + pers.width >= wolf.x || persX <= wolf.x + wolf.width) && downPress == false){
+//         pers.hp -= 30;
+//     }
 
     //Движение вправо
     if(rightPress == true && downPress == false){
